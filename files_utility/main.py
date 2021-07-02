@@ -3,8 +3,7 @@ import argparse
 from utility import Utility
 
 
-if __name__ == '__main__':
-
+def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--operation', help='Type of operation', type=str)
     parser.add_argument('--src', help='Path to src', type=str)
@@ -15,8 +14,7 @@ if __name__ == '__main__':
     utility = Utility(threads=args.threads, src=args.src)
     args.src = utility.pure_path(args.src)
     utility.do_operation(args.operation, args.src, args.to)
-        
 
-    
 
-    
+if __name__ == '__main__':
+    main()
