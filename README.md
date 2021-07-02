@@ -4,11 +4,12 @@
 3. cd files_utility
 
 
-for using:
-  py main.py --operation move --src D:\\b...\\ --to D:\\a...\\ --threads 10
-  py main.py --operation copy --src D:\\b...\\ --to D:\\a...\ --threads 10
-  etc
-  
+### for using:
+  1. py main.py --operation move --src D:\\b...\\ --to D:\\a...\\ --threads 10
+  2. py main.py --operation copy --src D:\\b...\\ --to D:\\a...\ --threads 10
+  3. etc
+
+### Each copying/ moving call runs in thread pool
 
 ### TESTED WITH:
 * Windows 10
