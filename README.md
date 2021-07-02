@@ -4,7 +4,7 @@
 3. cd files_utility
 
 
-### for using:
+### for usage:
   1. py main.py --operation move --src D:\\b...\\ --to D:\\a...\\ --threads 10
   2. py main.py --operation copy --src D:\\b...\\c*.py --to D:\\a...\ --threads 5
   3. py main.py --operation copy --src D:\\b...\\test*.git --to D:\\a...\ 
